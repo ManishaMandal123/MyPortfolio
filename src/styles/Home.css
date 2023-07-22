@@ -1,0 +1,103 @@
+.home {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+    color: #45165d;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(43, 2, 50);
+    color: #f0f0f0;
+  }
+  
+  .about h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: rgb(161, 248, 121);
+    height: 150px;
+  }
+  
+  .about .prompt {
+    width: 40%;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  }
+ 
+  .prompt svg {
+    font-size: 55px;
+    margin: 15px;
+    color: white;
+   
+  }
+
+  .image{
+    margin-right: 955pz;
+   height: 26px;
+   float: right;
+
+  }
+  
+  .skills {
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .skills h1 {
+    color: #45165d;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 50%;
+  }
+
+ 
+  
+  .list span {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 487px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+    .image{
+      position: relative;
+      bottom: 390px;
+      padding-top: 80%;
+      justify-content: center;
+      align-items: center;
+     
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
